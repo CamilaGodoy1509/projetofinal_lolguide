@@ -2,9 +2,9 @@
 
 let xhr = new XMLHttpRequest();
 var selecao = document.getElementById('name')
-let url = `http://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion.json`;
+let url = `https://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion.json`;
 
-xhr.open("GET", url);
+xhr.open("GET", url,false);
 
 xhr.onreadystatechange = function () {
     if (xhr.status == 200 && xhr.readyState == 4) {
@@ -29,9 +29,9 @@ function championSelected() {
     let show = document.getElementById('show')
     let show2 = document.getElementById('show').innerHTML = " "
 
-    let url = `http://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion/${champion}.json`;
+    let url = `https://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion/${champion}.json`;
 
-    xhr.open("GET", url);
+    xhr.open("GET", url,false);
 
     xhr.onreadystatechange = function () {
         if (xhr.status == 200 && xhr.readyState == 4) {

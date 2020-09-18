@@ -122,7 +122,7 @@ function level() {
     let xhr = new XMLHttpRequest();
     var champion = document.getElementById('name').value
 
-    let url = `http://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion/${champion}.json`;
+    let url = `https://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/champion/${champion}.json`;
 
     xhr.open("GET", url);
 

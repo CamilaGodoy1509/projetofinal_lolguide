@@ -1,7 +1,7 @@
 
     let xhr = new XMLHttpRequest();
 
-    let url = `http://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/item.json`;
+    let url = `https://ddragon.leagueoflegends.com/cdn/10.18.1/data/pt_BR/item.json`;
 
     xhr.open("GET", url);
 

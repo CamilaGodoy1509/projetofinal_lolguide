@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto final - Guia de LoL - Campeões</title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/league-of-legends-icon-file/league-of-legends-icon-file-0.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="https://www.dafont.com/forum/attach/orig/4/8/48913.png" alt="">
+        <h3>Guia do jogo</h3>
+    </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index1.html">Campeões</a>
+        <a href="index2.html">Itens</a>
+        <a href="index3.html">Extras</a>
+    </nav>
+
+    <main>
+
+        <div id="selecao">
+            <center>
+               <label for="">Escolha o nome do campeão</label>
+               <select name="" id="name" onchange="championSelected() "></select> <br>
+               <label for="">Após escolher o campeão, selecione o level</label>
+                <input type="number" name="" max="18" id="level" onchange="level()"> <br>
+            </center>
+        </div>
+
+        
+            <div id="show"></div>
+            <div id="spell"></div>
+            <div id="div-level"></div>
+        
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

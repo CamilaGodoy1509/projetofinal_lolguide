@@ -52,7 +52,7 @@ function championSelected() {
                     "<p align='justify'>" + obj.data[prop].lore + "</p>" + "<br>" +
                     "</div>"
 
-                $("#show").append(`<audio id='boom' >"<source src="/sound/${champion}.wav" type="audio/mpeg">
+                $("#show").append(`<audio id='boom' >"<source src="sound/${champion}.wav" type="audio/mpeg">
                 </audio>` + "<button  onclick='teste()'>" + "<img src='https://www.flaticon.com/svg/static/icons/svg/254/254434.svg' id='play'>" + "Ouça a frase desse campeão" + "</button>")
 
 
